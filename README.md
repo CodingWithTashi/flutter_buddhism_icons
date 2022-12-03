@@ -1,39 +1,50 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# flutter_buddhism_icons 
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+flutter_buddhism_icons is a simple icon package to load buddha icons.   
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+## Note  
+Package is still under development, feel free to fork and send pull request
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+## Demo
+![Image](https://github.com/CodingWithTashi/flutter_buddhism_icons/blob/main/example/demo/demo.png?raw=true)
+
+## Icon sources and Credit
+* [The Noun Project](https://thenounproject.com/)
 
 ## Features
-
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+* Load text from assets/file or string
+* View text
+* Search text
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+```dart
+flutter_buddhism_icons: 0.0.1-dev.1
 
-## Usage
+```   
+Import the library:
+```dart
+import 'package:flutter_buddhism_icons/buddhist_icons.dart';
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+```
+## Usage   
 
 ```dart
-const like = 'sample';
-```
+ListTile(
+            leading: Icon(
+              BuddhistIcon.buddhaBookFilled,
+              color: Colors.brown,
+              size: 32,
+            ),
+            title: Text('Buddha One'),
+            subtitle: Text('Buddha subtitle'),
+          ),
+```   
 
-## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+If you have any questions, feedback or ideas, feel free to [create an
+issue](https://github.com/CodingWithTashi/flutter_buddhism_icons/issues/new). If you enjoy this
+project, I'd appreciate your [🌟 on GitHub](https://github.com/CodingWithTashi/flutter_buddhism_icons/).   
+
+## You can also buy me a cup of coffee   
+<a href="https://www.buymeacoffee.com/codingwithtashi"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width=200px></a>
