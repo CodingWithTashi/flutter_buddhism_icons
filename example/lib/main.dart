@@ -33,13 +33,35 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: ListWheelScrollView(
-        itemExtent: 0.5,
+      body: ListView(
+        //itemExtent: 0.5,
         children: const [
-          Icon(
-            BuddhistIcon.lama,
-            color: Colors.green,
-            size: 32,
+          ListTile(
+            leading: Icon(
+              BuddhistIcon.buddhaBookFilled,
+              color: Colors.brown,
+              size: 32,
+            ),
+            title: Text('Buddha One'),
+            subtitle: Text('Buddha subtitle'),
+          ),
+          ListTile(
+            leading: Icon(
+              BuddhistIcon.buddhaCandle,
+              color: Colors.brown,
+              size: 32,
+            ),
+            title: Text('Buddha Two'),
+            subtitle: Text('Buddha subtitle'),
+          ),
+          ListTile(
+            leading: Icon(
+              BuddhistIcon.buddhaHand,
+              color: Colors.brown,
+              size: 32,
+            ),
+            title: Text('Buddha Three'),
+            subtitle: Text('Buddha subtitle'),
           ),
         ],
       ),
