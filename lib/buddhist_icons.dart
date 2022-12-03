@@ -1,9 +1,16 @@
 import 'package:flutter/widgets.dart';
 
+/// BuddhistIcon
+/// Contains all the static icon field
+/// All the icon credit goes to thenounproject https://thenounproject.com/
+/// Download other icon from here https://thenounproject.com/browse/icons/term/buddhism/?iconspage=1
 class BuddhistIcon {
   BuddhistIcon._();
 
+  /// font family name
   static const _kFontFam = 'MyFlutterApp';
+
+  /// font package name
   static const String _kFontPkg = 'flutter_buddhism_icons';
 
   static const IconData lotusFilled =

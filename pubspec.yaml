@@ -1,7 +1,8 @@
 name: flutter_buddhism_icons
 description: Simple Buddhism Icon
-version: 0.0.1
-homepage:
+version: 0.0.1-dev.1
+homepage: https://github.com/CodingWithTashi/flutter_buddhism_icons
+issue_tracker: https://github.com/CodingWithTashi/flutter_buddhism_icons/issues
 
 environment:
   sdk: '>=2.18.2 <3.0.0'
