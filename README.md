@@ -11,10 +11,6 @@ Package is still under development, feel free to fork and send pull request
 ## Icon sources and Credit
 * [The Noun Project](https://thenounproject.com/)
 
-## Features
-* Load text from assets/file or string
-* View text
-* Search text
 
 ## Getting started
 
